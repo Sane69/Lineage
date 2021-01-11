@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Download</title>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="header__nav">
+      <div class="header__logo">
+        <a href="index.html"><img src="img/header-logo.png" alt="header-logo"></a>
+      </div>
+      <div class="header__menu">
+        <ul>
+          <li><a href="#">Main</a></li>
+          <li><a href="#">Worlds</a></li>
+          <li><a href="#">Buy Coins</a></li>
+          <li><a href="#">Statistic</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__buttons">
+      <div class="header__buttons--sign">
+        <button type="button">Sign Up</button>
+      </div>
+      <div class="header__buttons--login">
+        <button type="button">Login</button>
+      </div>
+      <div class="header__buttons--download">
+        <a href="#"><button type="button">Download</button></a>
+      </div>
+    </div>
+    <div class="header__burger">
+      <span></span>
+  </div>
+  <div class="header__mobile">
+      <div class="header__nav--mob">
+          <ul>
+              <li><a href="#">Main</a></li>
+              <li><a href="#">Worlds</a></li>
+              <li><a href="#">Buy Coins</a></li>
+              <li><a href="#">Statistic</a></li>
+              <li><a href="#">Community</a></li>
+          </ul>
+      </div>
+      <div class="header__btn--mob">
+        <div class="header__buttons--sign">
+          <button type="button">Sign Up</button>
+        </div>
+        <div class="header__buttons--login">
+          <button type="button">Login</button>
+        </div>
+        <div class="header__buttons--downloadMob">
+          <a href="download.html"><button type="button">Download</button></a>
+        </div>
+    </div>
+  </div>
+  </header>
+
+  <div class="sign">
+
+  </div>
+
+  <div class="popup">
+    <div class="popup__btn">
+      <button class="popup__btn--sign" type="button">Sign Up</button>
+      <button class="popup__btn--login" type="button">Login</button>
+      <div class="popup__close">
+        <span>X</span>
+      </div>
+    </div>
+    <div class="popup__info--login">
+      <div class="popup__facebook">
+        <a href="#">
+          <img src="img/popup-facebook-icon.png" alt="facebook">
+          Login with <span>Facebook</span>
+        </a>
+      </div>
+      <div class="popup__or">
+        <p>Or</p>
+      </div>
+      <form class="popup__form">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <div class="popup__form--btn">
+          <button type="submit">Login</button>
+        </div>
+        <div class="popup__form--textLogin">
+          <a href="#">Forgot your password?</a>
+        </div>
+      </form>
+    </div>
+    <div class="popup__info--sign">
+      <div class="popup__facebook">
+        <a href="#">
+          <img src="img/popup-facebook-icon.png" alt="facebook">
+          Sign Up with <span>Facebook</span>
+        </a>
+      </div>
+      <div class="popup__or">
+        <p>Or</p>
+      </div>
+      <form class="popup__form">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="password" placeholder="Confirm password" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <div class="popup__form--btn">
+          <button type="submit">Confirm</button>
+        </div>
+        <div class="popup__form--text">
+          <p>Confirming the register you agree with our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="container">
+        <div class="main__block">
+          <div class="main__logo">
+            <a href="#"><img src="img/main-logo.png" alt="main-logo"></a>
+          </div>
+          <div class="main__status">
+            <div class="main__status--worldOne">
+              <span>World 1</span>
+              <p>9809</p>
+            </div>
+            <div class="main__status--worldTwo">
+              <span>World 2</span>
+              <p>Under Maintenance</p>
+            </div>
+        </div>
+      </div>
+      <div class="download">
+        <div class="download__title">
+          <div class="download__title--name">
+            <span>Download</span>
+          </div>
+          <div class="download__title--worlds">
+            <a class="download__title--link1" href="#">World 1</a>
+            <a class="download__title--link2" href="#">World 2</a>
+          </div>
+        </div>
+        <div class="download__info">
+          <div class="download__option">
+            <p><span>•</span> Choose the best download option (File size: <span>7.5GB</span>)</p>
+            <div class="download__option--links">
+              <div class="download__option--mega download__option--linksSize">
+                <a href="#">MEGA</a>
+              </div>
+              <div class="download__option--torrent download__option--linksSize">
+                <a href="#">Torrent</a>
+              </div>
+              <div class="download__option--media download__option--linksSize">
+                <a href="#">Mediafire</a>
+              </div>
+            </div>
+          </div>
+          <div class="download__manual">
+            <p><span>•</span> Manual Update (File size: <span>109MB</span>)</p>
+              <div class="download__manual--download">
+                <a href="#">Download</a>
+              </div>
+          </div>
+          <div class="download__system">
+            <p><span>•</span> System Requirements</p>
+            <div class="download__system--info">
+              <div class="download__system--text">
+                <table class="table__first" cellspacing="0" cellpadding="0">
+                  <tr><td class="td__first">Components</td><td class="td__first">Minimum</td><td class="td__first">Recommended</td></tr>
+                  <tr><td class="td">CPU</td><td class="td">Intel® Pentium® 4 3.0 GHz</td><td class="td">Intel® Core™2 Duo 6300</td></tr>
+                  <tr><td class="td">Memory</td><td class="td">2 GB or more RAM</td><td class="td">4 GB or more RAM</td></tr>
+                  <tr><td class="td">Video Card</td><td class="td">NVIDIA® GeForce® 6600 GT</td><td class="td">NVIDIA® GeForce® 7600 GT</td></tr>
+                  <tr><td class="td">Connection</td><td class="td">56k Internet connection</td><td class="td">Broadband Internet Connection</td></tr>
+                  <tr><td class="td">Hard Disk</td><td class="td" colspan="2">30 GB or higher free space</td></tr>
+                  <tr><td class="td">Direct X</td><td class="td" colspan="2">Direct X 9.0c or above</td></tr>
+                  <tr><td class="td">Operating System</td><td class="td" colspan="2">Windows 7 32bit / Windows 8 32bit / Windows 10 32bit</td></tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__info">
+      <div class="footer__service">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer__lang">
+        <img class="footer__lang--glob" src="img/footer-lang-glob.png" alt="glob">
+        <a href="#">English</a>
+        <img class="footer__lang--arrow" src="img/footer-arrow.png" alt="arrow">
+        <div class="footer__lang--other">
+          <a href="#">Russian</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__main">
+      <div class="footer__main--info">
+        <div class="footer__logo">
+          <a href="#"><img src="img/footer-logo.png" alt="logo"></a>
+        </div>
+        <div class="footer__text">
+          <span>Copyright © 2020 Lineage 2</span>
+          <p>This site is in no way associated with or endorsed by NCSoft</p>
+        </div>
+      </div>
+      <div class="footer__number">
+        <span>16</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
